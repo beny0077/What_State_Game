@@ -1,0 +1,2 @@
+# What_State_Game
+The What State Game is a game where a player attempts to guess a U.S. State during a limited amount of turns. The number of turns depends in the length of the word. The player will initially get a hint for the number of letters there are in the secret word and letters that have been correctly identified by the player will be revealed to them. If the player chooses to play again a new word will be selected for the new game.
