@@ -51,7 +51,7 @@ void PlayGame()
 		int AlmostGoodGuess = CIWordCount.IncorrectlyPlacedWords;
 
 		std::cout << Game.SecretWordPadding(guess) << std::endl;
-		std::cout << "You guessed " << GoodGuess << " words and in the right place" << std::endl;
+		std::cout << "You guessed " << GoodGuess << " words in the right place" << std::endl;
 		std::cout << "You got " << AlmostGoodGuess << " words placed in the wrong place";
 		std::cout << std::endl << std::endl;
 	}
@@ -63,7 +63,7 @@ std::string ChosenSecretWordList()
 {
 	//Secret Word must not conatin a repeated word
 	std::string WordList[9] =
-	{ "arizona","florida","idaho","iowa","maine","texxas","uttah","vermont","wyoming" };
+	{ "arizona","florida","idaho","iowa","maine","texas","uttah","vermont","wyoming" };
 	srand(time(NULL));
 	std::string RandomWord = "";
 	int s = rand() % 9;
