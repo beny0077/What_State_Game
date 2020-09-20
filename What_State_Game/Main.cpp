@@ -61,7 +61,6 @@ void PlayGame()
 
 std::string ChosenSecretWordList()
 {
-	//Secret Word must not conatin a repeated word
 	std::string WordList[9] =
 	{ "arizona","florida","idaho","iowa","maine","texas","uttah","vermont","wyoming" };
 	srand(time(NULL));
